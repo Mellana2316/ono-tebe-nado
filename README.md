@@ -1,1 +1,1 @@
-http://127.0.0.1:5500/#0
+https://github.com/Mellana2316/ono-tebe-nado.git
