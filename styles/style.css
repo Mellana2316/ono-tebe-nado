@@ -3,7 +3,7 @@
     align-content: center;
     grid-template-columns: 455px 152px 440px;
     justify-content: center;
-    margin: 90px 24px 96px 24px;
+    margin: 92px 24px 96px 24px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     text-decoration: none;
@@ -11,31 +11,39 @@
 
    .header_menu {
     display: grid;
-    grid-template-columns: 80px 166px 130px ;
-    gap: 10px;
-    padding-top: 2px;
-    padding-left: 11px;
+    grid-template-columns: 67px 166px 126px ;
+    gap: 14px;
     align-content:center;
     justify-content: center;
+    align-items:center;
+    justify-items: center;
+    padding-top: 5px;
    }
 
    .link_header {
     text-decoration: none;
+    padding-right: 20px;
    }
 
    .header_logo {
+    display: grid;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-right: 10px;
     width: 148px;
     height: 105px;
    }
 
    .header_address {
     display: grid;
-    align-content:center;
-    justify-content: center;
-    padding-left: 180px;
+    grid-template-columns: 240px;
+    align-content:space-evenly;
+    justify-content: end;
     font-style: normal;
-    line-height: 1.3;
     text-underline-offset: 3px;
+    padding-right: 23px;
  }
 
    ul {
@@ -48,22 +56,16 @@
 
  .header__link_active {
     text-decoration: underline;
- }
-
- .header_logo {
-    display: grid;
-    align-content:center;
-    justify-content: center;
+    text-underline-offset: 3px;
  }
 
  .cover_title {
-    display: grid;
     position: relative;
     height: 757px;
     color: rgb(255 255 255);
-    grid-template-rows: 115px 100px 100px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
+    background-position: center;
  }
 
  .overlay {
@@ -73,21 +75,21 @@
     width: 100%;
     height: 100%;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
  }
 
  .title_word {
     position: relative;
     z-index: 1;
-    margin-bottom: 200px;
+    margin-bottom: 5px;
  }
   
  .title_word_one {
     display: flex;
     justify-content: start;
     align-items:center;
-    padding-left: 50px;
-    margin: 160px 0px 20px 0px;
+    padding-left: 52px;
+    padding-top: 160px;
     font-size: 100px;
  }
 
@@ -95,7 +97,8 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    padding-right: 90px;
+    padding-right: 55px;
+    padding-top: 10px;
     font-size: 100px;
  }
 
@@ -103,20 +106,21 @@
     display: flex;
     justify-content: end;
     align-items:center;
-    padding-right: 90px;
+    padding-right: 50px;
+    padding-top: 5px;
     font-size: 100px;
  }
 
  .indent {
-    letter-spacing: 25px;
+    letter-spacing: 30px;
  }
  
  .indent_1 {
-    padding-left: 45px;
+    padding-left: 30px;
  }
 
  .indent_2 {
-    padding-left: 50px;
+    padding-left: 30px;
  }
 
  .indent_3 {
@@ -133,17 +137,15 @@
 
 .aside_cover {
     display:grid;
+    position: relative;
     grid-template-columns: 710px 340px;
     justify-items: center;
     align-items:center;
-    position: relative;
-    z-index: 2;
     font-size: 22px;
     font-weight: 80;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 540px;
     word-spacing: 18px;
+    padding-top: 123px;
+    padding-left: 42px;
 }
 
 .button_cover {
@@ -193,6 +195,7 @@
     height: 563px;
     background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .lot_two {
@@ -205,37 +208,42 @@
     height: 563px;
     background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .lot_three {
     display: flex;
     position: relative;
     flex-direction: column;
-    justify-content:space-between;
-    padding: 45px;
+    justify-content: space-between;
+    padding: 45px 40px 45px 40px;
     width: 334px;
     height: 563px;
     background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
+    background-position: center;
 }
 
-.lots_text_one {
+.lot_text_one {
     display: flex;
     position: relative;
     white-space: pre;
-    justify-content: center;
-    padding-right: 60px;
+    justify-content: end;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
-.lots_text_two {
+.lot_text_two {
     position: relative;
     padding-bottom: 50px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
-.lots_text_three {
+.lot_text_three {
+    display: flex;
+    justify-content: flex-end;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .see_more {
@@ -294,7 +302,7 @@
     grid-template-columns: 240px 149px 240px;
     gap: 186px;
     margin-left: 50px;
-    margin-bottom: 91px;
+    margin-bottom: 90px;
     padding-top: 5px;
     font-size: 18px;
 }
