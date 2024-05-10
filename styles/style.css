@@ -220,7 +220,7 @@ li {
 .about {
   display: grid;
   margin-top: 175px;
-  margin-bottom: 140px;
+  margin-bottom: 145px;
   grid-template-columns: 359px 693px;
   justify-content: center;
 }
